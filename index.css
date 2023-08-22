@@ -1,0 +1,51 @@
+/* Write your code here. */
+.bg_container {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.notification_heading {
+  color: #0f172a;
+  font-family: "Roboto";
+}
+.notification_container {
+  width: 80%;
+}
+.similar_properties {
+  margin: 20px;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  font-family: "Roboto";
+}
+.first-notification {
+  width: 80%;
+  background-color: #0b69ff;
+}
+.second-notification {
+  width: 80%;
+  background-color: #2dca73;
+}
+.third-notification {
+  width: 80%;
+  background-color: #ffb800;
+}
+.fourth-container {
+  width: 80%;
+  background-color: #ff0b37;
+}
+.icon {
+  height: 20px;
+  margin-right: 10px;
+}
